@@ -10,7 +10,7 @@ class SimpleCircle
     unsigned short itsRadius = 0;
 
 public:
-    SimpleCircle() {};
+    SimpleCircle() : itsRadius(5) {};
     SimpleCircle(unsigned short r) : itsRadius(r) {};
     ~SimpleCircle() {};
 

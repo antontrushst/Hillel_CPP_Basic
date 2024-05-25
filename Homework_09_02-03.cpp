@@ -5,7 +5,7 @@
 
 int main()
 {
-    const int *pointer = new const int(5);
+    const int *const pointer = new const int(5);
     int varOne;
     pointer = &varOne;
     varOne = 6;
